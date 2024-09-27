@@ -2,8 +2,8 @@ import React, { FC, ReactElement } from 'react';
 
 import { Box } from '@mui/material';
 import { ITask } from './interfaces/ITask';
-import { Priority } from '../CreateTaskForm/enums/Priority';
-import { Status } from '../CreateTaskForm/enums/Status';
+import { Priority } from '../createTaskForm/enums/Priority';
+import { Status } from '../createTaskForm/enums/Status';
 import { TaskDescription } from './_taskDescription';
 import { TaskFooter } from './_taskFooter';
 import { TaskHeader } from './_taskHeader';

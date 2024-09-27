@@ -2,13 +2,13 @@ import { Box } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import React, { FC, ReactElement } from 'react';
 import { TaskCounter } from '../taskCounter/TaskCounter';
-import {Status} from '../CreateTaskForm/enums/Status';
+import {Status} from '../createTaskForm/enums/Status';
 import { format } from 'date-fns';
 import { Task } from '../task/Task';
 
  const TaskArea: FC = (): ReactElement => {
   return (
-    <Grid item md={8} px={4}>
+    <Grid item md={8} xs={12}  px={4}>
       <Box mb={8} px={4}>
         <h2>
           Status Of Your Tasks As On{' '}

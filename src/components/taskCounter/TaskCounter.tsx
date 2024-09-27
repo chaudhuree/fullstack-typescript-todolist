@@ -2,7 +2,7 @@ import { Avatar, Box, Typography } from '@mui/material';
 import React, { FC, ReactElement } from 'react';
 
 import { ITaskCounter } from './interfaces/ITaskCounter';
-import { Status } from '../CreateTaskForm/enums/Status';
+import { Status } from '../createTaskForm/enums/Status';
 import { emitCorrectBorderColor } from './helpers/emitCorrectBorderColor';
 import {emitCorrectLabel} from './helpers/emitCorrectLabel';
 import PropTypes from 'prop-types';

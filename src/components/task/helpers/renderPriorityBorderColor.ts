@@ -1,4 +1,4 @@
-import { Priority } from "../../CreateTaskForm/enums/Priority";
+import { Priority } from "../../createTaskForm/enums/Priority";
 
 export const renderPriorityBorderColor = (priority: string) => {
   switch (priority) {
